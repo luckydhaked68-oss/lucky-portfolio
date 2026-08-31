@@ -11,7 +11,7 @@ export const socialLinks = [
   {
     name: 'GitHub',
     icon: FaGithub,
-    url: 'https://github.com/luckythakur8226-byte/Lucky-Dhaked',
+    url: 'https://github.com/luckydhaked68-oss',
     label: 'Open my GitHub profile',
   },
   {
