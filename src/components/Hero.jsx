@@ -1,21 +1,29 @@
 
+import profile from '../assets/profile.webp';
+
 function Hero() {
   return (
     <section id="home" className="hero section reveal-on-scroll">
+
       <div className="hero-copy reveal">
-        <p className="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <p className="eyebrow">
+          WELCOME TO MY PORTFOLIO
+        </p>
 
         <h1>
           Hi, I'm <span className="accent">Lucky Dhaked</span>
         </h1>
 
         <h2>
-          <span className="typewriter">Full Stack Developer</span>
+          <span className="typewriter">
+            Full Stack Developer
+          </span>
         </h2>
 
         <p className="lead">
-          I create stunning web experiences with modern technologies,
-          thoughtful interactions and clean, responsive design.
+          I create stunning web experiences with modern
+          technologies, thoughtful interactions and clean,
+          responsive design.
         </p>
 
         <div className="actions">
@@ -30,12 +38,14 @@ function Hero() {
       </div>
 
       <div className="hero-visual reveal">
+
         <div className="orbit" />
 
         <div className="portrait-wrap">
-          <div className="profile-placeholder">
-            LD
-          </div>
+          <img
+            src={profile}
+            alt="Lucky Dhaked profile"
+          />
         </div>
 
         <div className="floating-card card-one">
@@ -53,6 +63,7 @@ function Hero() {
             <small>Clean & scalable</small>
           </div>
         </div>
+
       </div>
     </section>
   );
